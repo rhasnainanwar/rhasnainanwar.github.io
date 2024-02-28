@@ -8,7 +8,7 @@ middle_name:
 last_name: Anwar
 email: ranwar@umass.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Hi, I am PhD student @ University of Massachusetts Amherst. I work on security policy analysis of large-scale systems with Dr. Muhammad Taqi Raza in [Khwarizmi Lab](https://khwarizmilab.github.io/){:target="_blank"}.
+  Hi, I am PhD student @ University of Massachusetts Amherst. I work on security policy analysis of large-scale systems with Dr. Muhammad Taqi Raza in <a href="https://khwarizmilab.github.io/" target="_blank">Khwarizmi Lab</a>.
 footer_text: >
 
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
