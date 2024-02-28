@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://khwarizmilab.github.io/'>Khwarizmi Lab</a>
+subtitle: Affiliation - <a href='https://khwarizmilab.github.io/'>Khwarizmi Lab</a>
 
 profile:
   align: right
