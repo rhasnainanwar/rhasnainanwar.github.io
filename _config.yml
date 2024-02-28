@@ -10,7 +10,6 @@ email: ranwar@umass.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Hi, I am PhD student @ University of Massachusetts Amherst. I work on security policy analysis of large-scale systems with Dr. Muhammad Taqi Raza in <a href="https://khwarizmilab.github.io/" target="_blank">Khwarizmi Lab</a>.
 footer_text: >
-
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
