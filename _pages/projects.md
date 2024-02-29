@@ -3,14 +3,14 @@ layout: page
 title: projects
 permalink: /projects/
 description: A collection of cool projects to be added soon!
-nav: true
+nav: false
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
-<!-- <div class="projects">
+<div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
 
   {% for category in page.display_categories %}
@@ -37,11 +37,11 @@ horizontal: false
   {% endif %}
   {% endfor %}
 
-{% else %} -->
+{% else %}
 
 <!-- Display projects without categories -->
 
-<!-- {% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign sorted_projects = site.projects | sort: "importance" %}
 
 {% if page.horizontal %}
 
@@ -60,4 +60,4 @@ horizontal: false
   </div>
   {% endif %}
 {% endif %}
-</div> -->
+</div>
