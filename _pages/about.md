@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Knowles Engineering Building 304</p>
-    <p>151 Holdsworth Way</p>
+    <p>151 Holdsworth Way,</p>
     <p>Amherst, MA 01003</p>
 
 news: true # includes a list of news items
