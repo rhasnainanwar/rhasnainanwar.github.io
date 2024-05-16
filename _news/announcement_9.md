@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Accepted for UMass College of Engineering Teaching Fellowship!
+Selected for UMass College of Engineering Teaching Fellowship!
