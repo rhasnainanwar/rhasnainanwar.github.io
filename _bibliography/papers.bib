@@ -1,15 +1,16 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
 @inproceedings{anwar2023wallet,
+  abbr={USENIX},
   title={In Wallet We Trust: Bypassing the Digital Wallets Payment Security for Free Shopping},
   author={Anwar, Raja Hasnain and Hussain, Syed Rafiul and Raza, Muhammad Taqi},
-  booktitle={USENIX Security Symposium (forthcoming)},
+  booktitle={USENIX Security Symposium},
   abstract={Digital wallets are a new form of payment technology that provides a secure and convenient way of making contactless payments through smart devices. In this paper, we study the security of financial transactions made through digital wallets, focusing on the authentication, authorization, and access control security functions. We find that the digital payment ecosystem supports the decentralized authority delegation which is susceptible to a number of attacks. First, an attacker adds the victim's bank card into their (attacker's) wallet by exploiting the authentication method agreement procedure between the wallet and the bank. Second, they exploit the unconditional trust between the wallet and the bank, and bypass the payment authorization. Third, they create a trap door through different payment types and violate the access control policy for the payments. The implications of these attacks are of a serious nature where the attacker can make purchases of arbitrary amounts by using the victim's bank card, despite these cards being locked and reported to the bank as stolen by the victim. We validate these findings in practice over major US banks (notably Chase, AMEX, Bank of America, and others) and three digital wallet apps (ApplePay, GPay, and PayPal).},
+  pages={541--558},
   year={2024},
   url={https://www.usenix.org/conference/usenixsecurity24/presentation/anwar},
+  pdf={usenixsecurity24-anwar.pdf},
   preview={payment_arch.png},
   bibtex_show={true},
   selected={true}
@@ -19,10 +20,11 @@
   abbr={IEEE MASS},
   title={Characterizing Encrypted Application Traffic through Cellular Radio Interface Protocol},
   author={Islam, Md Ruman and Anwar, Raja Hasnain and Mastorakis, Spyridon and Raza, Muhammad Taqi},
-  booktitle={IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS 2024)},
+  booktitle={IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS)},
   abstract={Modern applications are end-to-end encrypted to prevent data from being read or secretly modified. 5G tech nology provides ubiquitous access to these applications without compromising the application-specific performance and latency goals. In this paper, we empirically demonstrate that 5G radio communication becomes the side channel to precisely infer the user's applications in real-time. The key idea lies in observing the 5G physical and MAC layer interactions over time that reveal the application's behavior. The MAC layer receives the data from the application and requests the network to assign the radio resource blocks. The network assigns the radio resources as per application requirements, such as priority, Quality of Service (QoS) needs, amount of data to be transmitted, and buffer size. The adversary can passively observe the radio resources to fingerprint the applications. We empirically demonstrate this attack by considering four different categories of applications: online shopping, voice/video conferencing, video streaming, and Over-The-Top (OTT) media platforms. Finally, we have also demonstrated that an attacker can differentiate various types of applications in real-time within each category.},
-  url={https://arxiv.org/pdf/2407.07361},
   year={2024},
+  url={https://arxiv.org/pdf/2407.07361},
+  pdf={2407.07361v2.pdf},
   preview={5g_scheduler.png},
   bibtex_show={true},
   selected={true}
