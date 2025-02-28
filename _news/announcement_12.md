@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Accepted offer to join Microsoft as Data Science Intern in summer 2025.
+Accepted offer to join **Microsoft** as Data Science Intern in summer 2025.
