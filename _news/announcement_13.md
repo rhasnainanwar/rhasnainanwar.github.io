@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Lightning talk on Human in-the-loop for secure digital transactions accepted at the UMass Graduate Research Symposium.
+Lightning talk on human in-the-loop for secure digital transactions accepted at the UMass Graduate Research Symposium.
