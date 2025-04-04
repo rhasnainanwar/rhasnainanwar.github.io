@@ -6,10 +6,10 @@ permalink: /talks/
 
 {% assign sorted_talks = site.data.talks | sort: 'year' | reverse %}
 
-{% for year, talk_items in sorted_talks | group_by: 'year' %}
-  <h2>{{ year }}</h2>
+{% for group in sorted_talks | group_by: 'year' %}
+  <h2>{{ group.name }}</h2>
   <div class="publications">
-    {% for item in talk_items %}
+    {% for item in group.items %}
       <div class="publication">
         {% if item.youtube_embed %}
           <div class="publication-video">
