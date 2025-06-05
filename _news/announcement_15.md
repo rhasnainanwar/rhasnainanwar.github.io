@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-05-19 07:59:00-0400
+date: 2025-04-27 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Started internship at Microsoft as a Data Scientist on the Office AI team.
+Paper on Security Analysis of In-Flight Wi-Fi Paywall Systems accepted at ACM WiSec 2025.
