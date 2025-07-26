@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
+  </header>
+
+  <article class="post-content {{ page.class }}">
+    <div class="publications">
+      {% for item in site.data.media %}
+        <div class="publication" style="margin-bottom: 1.5rem;">
+          <h4><a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></h4>
+          <p style="margin-bottom: 0.2rem;">{{ item.publisher }}</p>
+          <p style="color: #828282;">{{ item.date | date: "%B %d, %Y" }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+
+</div>
