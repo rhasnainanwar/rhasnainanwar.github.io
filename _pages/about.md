@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Affiliation - <a href='https://khwarizmilab.github.io/' target='_blank'>Khwarizmi Lab</a>
 

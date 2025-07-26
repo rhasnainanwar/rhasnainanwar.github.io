@@ -1,6 +1,6 @@
 ---
 layout: media
-title: Media Coverage
+title: press & media
 permalink: /media/
 description: "Articles and news about my work."
 nav: true

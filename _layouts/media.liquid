@@ -12,8 +12,8 @@ layout: default
     <div class="publications">
       {% for item in site.data.media %}
         <div class="publication" style="margin-bottom: 1.5rem;">
-          <h4><a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></h4>
-          <p style="margin-bottom: 0.2rem;">{{ item.publisher }}</p>
+          <h5><a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></h5>
+          <h6 style="margin-bottom: 0.2rem;">{{ item.publisher }}</h6>
           <p style="color: #828282;">{{ item.date | date: "%B %d, %Y" }}</p>
         </div>
       {% endfor %}
