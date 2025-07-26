@@ -10,12 +10,17 @@ layout: default
 
   <article class="post-content {{ page.class }}">
     <div class="publications">
-      {% for item in site.data.media %}
-        <div class="publication" style="margin-bottom: 1.5rem;">
-          <h5><a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></h5>
-          <h6 style="margin-bottom: 0.2rem;">{{ item.publisher }}</h6>
-          <p style="color: #828282;">{{ item.date | date: "%B %d, %Y" }}</p>
-        </div>
+      {%- assign media_by_year = site.data.media | where_exp:"item", "item.date" | group_by_exp:"item", "item.date | date: '%Y'" | sort: "name" | reverse -%}
+      {% for year in media_by_year %}
+        <h2 class="year">{{ year.name }}</h2>
+        {%- assign items_in_year = year.items | sort: "date" | reverse -%}
+        {% for item in items_in_year %}
+          <div class="publication" style="margin-bottom: 1.5rem;">
+            <h5><a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></h5>
+            <h6 style="margin-bottom: 0.2rem;">{{ item.publisher }}</h6>
+            <p style="color: #828282;">{{ item.date | date: "%B %d, %Y" }}</p>
+          </div>
+        {% endfor %}
       {% endfor %}
     </div>
   </article>
