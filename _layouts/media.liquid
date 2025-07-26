@@ -9,6 +9,7 @@ layout: default
   </header>
 
   <article class="post-content {{ page.class }}">
+    {% include highlighted_media.liquid %}
     <div class="publications">
       {%- assign media_by_year = site.data.media | where_exp:"item", "item.date" | group_by_exp:"item", "item.date | date: '%Y'" | sort: "name" | reverse -%}
       {% for year in media_by_year %}
