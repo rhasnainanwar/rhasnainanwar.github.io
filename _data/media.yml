@@ -3,7 +3,7 @@
   date: 2025-07-05
   link: "https://www.investopedia.com/cybersecurity-mobile-wallet-may-not-be-safe-11731210"
   highlight: true
-  logo: "assets/img/logos/Investopedia.png"
+  logo: "Investopedia.png"
 - title: "Digital security expert shares advice on keeping your personal information safe when using digital wallets"
   publisher: "Spectrum News 1 - Massachusetts"
   date: 2024-12-02
@@ -17,7 +17,7 @@
   date: 2024-09-25
   link: "https://www.cnet.com/personal-finance/credit-cards/advice/are-digital-wallets-safe-heres-how-to-protect-your-financial-information-in-2024/"
   highlight: true
-  logo: "assets/img/logos/CNET.png"
+  logo: "CNET.png"
 - title: "Study: The safety of ApplePay and GooglePay called into question"
   publisher: "Consumer Affairs"
   date: 2024-09-16
@@ -31,7 +31,7 @@
   date: 2024-09-04
   link: "https://hackerdose.com/news/digital-wallet-loophole-shop-for-free/"
   highlight: true
-  logo: "assets/img/logos/Hackerdose.webp"
+  logo: "Hackerdose.webp"
 - title: "New Study Reveals Loophole in Digital Wallet Security"
   publisher: "Business West"
   date: 2024-08-30
@@ -41,13 +41,13 @@
   date: 2024-08-25
   link: "https://www.linkedin.com/feed/update/urn:li:activity:7233569312542728192/"
   highlight: true
-  logo: "assets/img/logos/Kaspersky.png"
+  logo: "Kaspersky.png"
 - title: "A Loophole in Digital Wallet Security"
   publisher: "ACM TechNews, Friday, August 23, 2024"
   date: 2024-08-23
   link: "https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-23-2024.html"
   highlight: true
-  logo: "assets/img/logos/ACM.png"
+  logo: "ACM.png"
 - title: "Researchers Uncover Security Issues in Digital Wallets"
   publisher: "PaymentsJournal"
   date: 2024-08-23
@@ -57,7 +57,7 @@
   date: 2024-08-22
   link: "https://www.forbes.com/sites/billhardekopf/2024/08/22/this-week-in-credit-card-news-people-using-cash-back-cards-to-help-during-tough-economy/"
   highlight: true
-  logo: "assets/img/logos/Forbes.png"
+  logo: "Forbes.png"
 - title: "5 Emerging Security Imperatives for Digital Wallets"
   publisher: "PYMNTS"
   date: 2024-08-21
@@ -87,11 +87,13 @@
   date: 2024-08-20
   link: "https://www.techradar.com/pro/digital-wallets-allow-for-the-use-of-stolen-credit-cards"
   highlight: true
-  logo: "assets/img/logos/TechRadar.png"
+  logo: "TechRadar.png"
 - title: "Digital wallets can allow purchases with stolen credit cards"
   publisher: "The Register"
   date: 2024-08-20
   link: "https://www.theregister.com/2024/08/20/digital_wallets_simplify_fraud/"
+  highlight: true
+  logo: "TheRegister.png"
 - title: "Security flaw allows stolen credit card use on digital wallets"
   publisher: "NewsBytes"
   date: 2024-08-20
