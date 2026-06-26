@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper on my internship work at Microsoft, ‘PPT-Eval: A Benchmark for Computer-Use Agents on PowerPoint Tasks,’ has been accepted at ICML 2026.
+Paper on my internship work at Microsoft, ‘PPT-Eval: A Benchmark for Computer-Use Agents on PowerPoint Tasks,’ has been accepted at **ICML** 2026.
