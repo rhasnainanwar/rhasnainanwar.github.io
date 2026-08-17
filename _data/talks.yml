@@ -1,24 +1,22 @@
-2026:
-  - title: "USENIX Security - Zombie Cards Back Online: Reviving Expired Credit Cards for Contactless Payments"
-    youtube_embed: "https://www.youtube.com/embed/4lSSENmAXsg"
-    link: "https://www.usenix.org/conference/usenixsecurity26/presentation/anwar"
-    description: "This paper presents a security weakness in a Visa contactless payment configuration that can let an expired credit card appear valid to a payment terminal. In a controlled relay demonstration, the researchers altered the expiry information read by the terminal while the card's normal cryptographic responses remained valid, showing how inconsistent expiry enforcement across the payment chain can revive a retired card for contactless payments."
-    year: 2026
+- title: "USENIX Security - Zombie Cards Back Online: Reviving Expired Credit Cards for Contactless Payments"
+  youtube_embed: "https://www.youtube.com/embed/4lSSENmAXsg"
+  link: "https://www.usenix.org/conference/usenixsecurity26/presentation/anwar"
+  description: "This paper presents a security weakness in a Visa contactless payment configuration that can let an expired credit card appear valid to a payment terminal. In a controlled relay demonstration, the researchers altered the expiry information read by the terminal while the card's normal cryptographic responses remained valid, showing how inconsistent expiry enforcement across the payment chain can revive a retired card for contactless payments."
+  year: 2026
 
-2024:
-  - title: "USENIX Security - In Wallet We Trust: Bypassing the Digital Wallets Payment Security for Free Shopping"
-    youtube_embed: "https://www.youtube.com/embed/wZ8b6121l6w"
-    link: "https://www.usenix.org/conference/usenixsecurity24/presentation/anwar"
-    description: "The paper investigates security weaknesses in digital wallet payment systems, identifying vulnerabilities due to decentralized authority delegation and excessive trust between banks and wallet apps. The researchers demonstrate how attackers can exploit these issues to add stolen cards, bypass transaction authorization, and violate access control, and propose practical remedies to address these critical design flaws."
-    year: 2024
-  - title: "SOUPS - Human-in-the-Loop for Secure Digital Wallets Transactions"
-    youtube_embed: "https://www.youtube.com/embed/28c3HCaQpzA"
-    link: "https://www.usenix.org/conference/soups2024/presentation/anwar"
-    description: "The talk highlights critical vulnerabilities in digital wallet security, emphasizing that banks overly trust wallet apps for authentication and authorization, using wallet IDs instead of verifying the actual cardholder's identity. This trust enables attackers to add stolen cards to wallets and bypass security checks. The proposed solution involves adopting user-centered verification approaches like push-based multi-factor authentication and periodic re-authentication to enhance digital wallet security."
-    year: 2024
+- title: "USENIX Security - In Wallet We Trust: Bypassing the Digital Wallets Payment Security for Free Shopping"
+  youtube_embed: "https://www.youtube.com/embed/wZ8b6121l6w"
+  link: "https://www.usenix.org/conference/usenixsecurity24/presentation/anwar"
+  description: "The paper investigates security weaknesses in digital wallet payment systems, identifying vulnerabilities due to decentralized authority delegation and excessive trust between banks and wallet apps. The researchers demonstrate how attackers can exploit these issues to add stolen cards, bypass transaction authorization, and violate access control, and propose practical remedies to address these critical design flaws."
+  year: 2024
 
-2021:
-  - title: "Keeping eyes on the road: the role of situated IS delegation in influencing drivers’ situational awareness"
-    link: "https://aisel.aisnet.org/treos_icis2021/43/"
-    description: "This talk presents how AI-driven driver-assistance systems in semi-autonomous vehicles can paradoxically decrease driver attention and responsiveness by fostering over-reliance on algorithmic aids. It critiques traditional AI designs that inadequately gauge driver attention, proposing instead an event-based attention-gauging approach. This novel approach aims to align the decision processes of the driver and the AI system, potentially increasing responsiveness, transparency, and predictability, and thereby offering improved guidance for designing effective and safe AI-driven driver aids."
-    year: 2021
+- title: "SOUPS - Human-in-the-Loop for Secure Digital Wallets Transactions"
+  youtube_embed: "https://www.youtube.com/embed/28c3HCaQpzA"
+  link: "https://www.usenix.org/conference/soups2024/presentation/anwar"
+  description: "The talk highlights critical vulnerabilities in digital wallet security, emphasizing that banks overly trust wallet apps for authentication and authorization, using wallet IDs instead of verifying the actual cardholder's identity. This trust enables attackers to add stolen cards to wallets and bypass security checks. The proposed solution involves adopting user-centered verification approaches like push-based multi-factor authentication and periodic re-authentication to enhance digital wallet security."
+  year: 2024
+
+- title: "Keeping eyes on the road: the role of situated IS delegation in influencing drivers’ situational awareness"
+  link: "https://aisel.aisnet.org/treos_icis2021/43/"
+  description: "This talk presents how AI-driven driver-assistance systems in semi-autonomous vehicles can paradoxically decrease driver attention and responsiveness by fostering over-reliance on algorithmic aids. It critiques traditional AI designs that inadequately gauge driver attention, proposing instead an event-based attention-gauging approach. This novel approach aims to align the decision processes of the driver and the AI system, potentially increasing responsiveness, transparency, and predictability, and thereby offering improved guidance for designing effective and safe AI-driven driver aids."
+  year: 2021
