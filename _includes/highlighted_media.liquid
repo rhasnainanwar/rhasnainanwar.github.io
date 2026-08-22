@@ -2,11 +2,11 @@
 {% if highlighted_media.size > 0 %}
 <div class="highlighted-media">
   <h2 class="mt-4">Featured In</h2>
-  <div class="logo-grid">
+  <div class="featured-logo-cloud">
     {% for item in highlighted_media %}
-      <div class="logo-item text-center">
+      <div class="featured-logo-cloud__item" data-logo-scale="{{ item.logo_scale | default: 1 }}">
         <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
-          <img src="{{ site.baseurl }}/assets/img/logos/{{ item.logo }}" alt="{{ item.publisher }} logo" class="img-fluid">
+          <img src="{{ site.baseurl }}/assets/img/logos/{{ item.logo }}" alt="{{ item.publisher }} logo">
         </a>
       </div>
     {% endfor %}
@@ -14,20 +14,81 @@
 </div>
 
 <style>
-.logo-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 2rem;
+.featured-logo-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(1.5rem, 3vw, 2.25rem) clamp(1.75rem, 4vw, 3rem);
   align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
 }
-.logo-item img {
+.featured-logo-cloud__item {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.featured-logo-cloud__item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.featured-logo-cloud__item img {
   display: block;
-  max-height: 60px;
-  max-width: 100%;
   width: auto;
   height: auto;
-  margin: 0 auto;
+  max-width: calc(100vw - 2rem);
+  max-height: 64px;
+  margin: 0;
   object-fit: contain;
 }
+@media (max-width: 575px) {
+  .featured-logo-cloud {
+    column-gap: 1rem;
+  }
+}
 </style>
+
+<script>
+(() => {
+  const targetArea = 8500;
+
+  document.querySelectorAll('.featured-logo-cloud').forEach((cloud) => {
+    const logos = Array.from(cloud.querySelectorAll('img'));
+
+    const resizeLogos = () => {
+      const maxWidth = Math.min(320, Math.max(140, cloud.clientWidth - 16));
+
+      logos.forEach((logo) => {
+        if (!logo.naturalWidth || !logo.naturalHeight) return;
+
+        const scale = Number.parseFloat(
+          logo.closest('.featured-logo-cloud__item').dataset.logoScale
+        ) || 1;
+        const ratio = logo.naturalWidth / logo.naturalHeight;
+        let height = Math.sqrt(targetArea / ratio) * scale;
+        height = Math.min(64, Math.max(34, height));
+        let width = height * ratio;
+
+        if (width > maxWidth) {
+          width = maxWidth;
+          height = width / ratio;
+        }
+
+        logo.style.width = `${width.toFixed(1)}px`;
+        logo.style.height = `${height.toFixed(1)}px`;
+      });
+
+      cloud.dataset.ready = 'true';
+    };
+
+    logos.forEach((logo) => {
+      if (!logo.complete) logo.addEventListener('load', resizeLogos, { once: true });
+    });
+
+    resizeLogos();
+    new ResizeObserver(resizeLogos).observe(cloud);
+  });
+})();
+</script>
 {% endif %}

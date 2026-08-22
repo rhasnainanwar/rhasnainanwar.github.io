@@ -4,12 +4,14 @@
   link: "https://www.techjuice.pk/zombie-card-attack-expired-visa-nfc-relay/"
   highlight: true
   logo: "TechJuice.svg"
+  logo_scale: 0.82
 - title: "Zombie Card: An expired Visa credit card can be used for purchases"
   publisher: "Malwarebytes"
   date: 2026-08-21
   link: "https://www.malwarebytes.com/blog/news/2026/08/zombie-card-an-expired-visa-credit-card-can-be-used-for-purchases"
   highlight: true
   logo: "Malwarebytes.svg"
+  logo_scale: 1.18
 - title: "Experts warn expired credit cards can be brought back from the dead to make contactless payments"
   publisher: "TechRadar"
   date: 2026-08-21
@@ -30,6 +32,7 @@
   link: "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html"
   highlight: true
   logo: "TheHackerNews.png"
+  logo_scale: 1.18
 - title: "Researchers find a loophole that lets expired credit cards make unauthorized payments"
   publisher: "Help Net Security"
   date: 2026-08-20
@@ -110,12 +113,14 @@
   link: "https://www.fox26houston.com/news/researchers-say-digital-wallet-loophole-can-let-thieves-use-credit-cards-after-theyve-been-reported-stolen"
   highlight: true
   logo: "Fox.png"
+  logo_scale: 0.82
 - title: "Cybersecurity Alert: Why Your Mobile Wallet May Not Be Safe Even With a VPN"
   publisher: "Investopedia"
   date: 2025-07-05
   link: "https://www.investopedia.com/cybersecurity-mobile-wallet-may-not-be-safe-11731210"
   highlight: true
   logo: "Investopedia.png"
+  logo_scale: 1.15
 - title: "Researchers uncover security issues in Digital Wallets"
   publisher: "Fintech News"
   date: 2024-11-11
@@ -130,6 +135,7 @@
   link: "https://www.cnet.com/personal-finance/credit-cards/advice/are-digital-wallets-safe-heres-how-to-protect-your-financial-information-in-2024/"
   highlight: true
   logo: "CNET.png"
+  logo_scale: 0.82
 - title: "Study: The safety of ApplePay and GooglePay called into question"
   publisher: "Consumer Affairs"
   date: 2024-09-16
@@ -160,6 +166,7 @@
   link: "https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-23-2024.html"
   highlight: true
   logo: "ACM.png"
+  logo_scale: 1.15
 - title: "Researchers Uncover Security Issues in Digital Wallets"
   publisher: "PaymentsJournal"
   date: 2024-08-23
@@ -170,6 +177,7 @@
   link: "https://www.forbes.com/sites/billhardekopf/2024/08/22/this-week-in-credit-card-news-people-using-cash-back-cards-to-help-during-tough-economy/"
   highlight: true
   logo: "Forbes.png"
+  logo_scale: 0.85
 - title: "5 Emerging Security Imperatives for Digital Wallets"
   publisher: "PYMNTS"
   date: 2024-08-21
