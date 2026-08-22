@@ -50,6 +50,12 @@
   publisher: "XenoSpectrum"
   date: 2026-08-19
   link: "https://xenospectrum.com/en/zombie-visa-cards-expired-contactless-payment-exploit-usenix-2026/"
+- title: "Cartes de crédit zombies : des chercheurs arrivent à payer sans contact avec des cartes Visa périmées"
+  publisher: "Les Numériques"
+  date: 2026-08-19
+  link: "https://www.lesnumeriques.com/banque-en-ligne/cartes-de-credit-zombies-des-chercheurs-arrivent-a-payer-sans-contact-avec-des-cartes-visa-perimees-n260595.html"
+  highlight: true
+  logo: "LesNumeriques.svg"
 - title: "Expired credit cards revived by researchers to make unauthorized payments"
   publisher: "The Register"
   date: 2026-08-18
