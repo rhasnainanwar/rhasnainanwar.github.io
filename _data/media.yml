@@ -6,6 +6,18 @@
   publisher: "CardRates"
   date: 2026-08-26
   link: "https://www.cardrates.com/news/security-flaw-can-bring-expired-visa-credit-cards-back-to-life/"
+- title: "Zombie Card : une carte bancaire expirée peut encore être utilisée pour payer"
+  publisher: "La Tribune"
+  date: 2026-08-26
+  link: "https://www.latribune.fr/article/tech/informatique/50102393136479/zombie-card-une-carte-bancaire-expiree-peut-encore-etre-utilisee-pour-payer"
+  highlight: true
+  logo: "LaTribune.svg"
+- title: "Voici pourquoi vous devez absolument détruire correctement votre carte bancaire une fois sa date d'expiration passée"
+  publisher: "BFM TV"
+  date: 2026-08-25
+  link: "https://x.com/BFMTV/status/2092134736831381782"
+  highlight: true
+  logo: "BFM.svg"
 - title: "Experts warn your expired credit cards can still be charged"
   publisher: "GEEKSPIN"
   date: 2026-08-24
@@ -63,6 +75,12 @@
   highlight: true
   logo: "LaRepubblica.png"
   logo_scale: 1.1
+- title: "«Des zombies» : attention, des paiements sans contact sont possibles avec vos vieilles cartes bancaires"
+  publisher: "CNEWS"
+  date: 2026-08-21
+  link: "https://www.cnews.fr/france/2026-08-21/des-zombies-attention-des-paiements-sans-contact-sont-possibles-avec-vos-vieilles"
+  highlight: true
+  logo: "CNEWS.png"
 - title: "In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, GitHub Denies AI Caused Bug"
   publisher: "SecurityWeek"
   date: 2026-08-21
