@@ -1,7 +1,7 @@
 {% assign highlighted_media = site.data.media | where: "highlight", true %}
 {% if highlighted_media.size > 0 %}
 <div class="highlighted-media">
-  <h2 class="mt-4">Featured In</h2>
+  <h2 class="mt-4">Research Featured In</h2>
   <div class="featured-logo-cloud">
     {% for item in highlighted_media %}
       <div class="featured-logo-cloud__item" data-logo-scale="{{ item.logo_scale | default: 1 }}">
