@@ -1,7 +1,3 @@
-- title: "How can expired contactless cards become a means of payment again?"
-  publisher: "Računalniške novice"
-  date: 2026-10-03
-  link: "https://www.racunalniske-novice.com/en/how-can-expired-contactless-cards-become-a-means-of-payment-again/"
 - title: "Expired credit cards can still be used for contactless payments, 'zombie card' flaw found"
   publisher: "Digital Today"
   date: 2026-09-30
@@ -149,6 +145,10 @@
   publisher: "XenoSpectrum"
   date: 2026-08-19
   link: "https://xenospectrum.com/en/zombie-visa-cards-expired-contactless-payment-exploit-usenix-2026/"
+- title: "How can expired contactless cards become a means of payment again?"
+  publisher: "Računalniške novice"
+  date: 2026-08-19
+  link: "https://www.racunalniske-novice.com/en/how-can-expired-contactless-cards-become-a-means-of-payment-again/"
 - title: "Cartes de crédit zombies : des chercheurs arrivent à payer sans contact avec des cartes Visa périmées"
   publisher: "Les Numériques"
   date: 2026-08-19
