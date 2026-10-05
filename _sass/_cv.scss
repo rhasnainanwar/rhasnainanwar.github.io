@@ -33,6 +33,17 @@ a.btncv:hover {
   text-decoration: none !important;
 }
 
+span.cv-last-updated {
+  color: var(--global-theme-color) !important;
+  border-color: var(--global-theme-color) !important;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+span.cv-last-updated i {
+  margin-right: 0.3rem;
+}
+
 /*****************************
  * CV TIME_TABLE styles
  *****************************/

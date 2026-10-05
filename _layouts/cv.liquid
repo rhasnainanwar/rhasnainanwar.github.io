@@ -2,7 +2,13 @@
 layout: default
 ---
 
-<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" class="btn btn-primary" download>Download CV</a>
+<div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
+  <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" class="btn btn-primary" download>Download CV</a>
+  <span class="badge bg-transparent border cv-last-updated">
+    <i class="fas fa-rotate"></i>
+    Last updated {% file_last_modified_at {{ page.cv_pdf | prepend: 'assets/pdf/' }} %}
+  </span>
+</div>
 
 <div class="post">
   <article>
