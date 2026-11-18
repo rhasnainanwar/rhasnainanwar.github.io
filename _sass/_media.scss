@@ -1,0 +1,26 @@
+.media-coverage {
+  .publication {
+    margin-bottom: 1.5rem;
+    overflow-wrap: anywhere;
+  }
+
+  .media-publisher {
+    color: var(--global-text-color);
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
+
+  .media-article-title {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 0.25rem;
+  }
+
+  .media-date {
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+    margin-bottom: 0;
+  }
+}

@@ -1,3 +1,9 @@
+- title: "Podcast"
+  youtube_embed: "https://www.youtube.com/embed/TB_4ZRKGDUE"
+  link: "https://youtu.be/TB_4ZRKGDUE"
+  description: "Watch the full podcast on YouTube."
+  year: 2026
+
 - title: "USENIX Security - Zombie Cards Back Online: Reviving Expired Credit Cards for Contactless Payments"
   youtube_embed: "https://www.youtube.com/embed/4lSSENmAXsg"
   link: "https://www.usenix.org/conference/usenixsecurity26/presentation/anwar"

@@ -1,3 +1,14 @@
+- title: "Expired credit cards can still be used for contactless payments, 'zombie card' flaw found"
+  publisher: "Digital Today"
+  date: 2026-09-30
+  link: "https://www.digitaltoday.co.kr/en/view/109016/expired-credit-cards-can-still-pay-zombie-card-flaw-found"
+- title: "Zombie Credit Cards: How Your Expired Card Can Come Back to Life"
+  publisher: "U.S. News & World Report"
+  date: 2026-09-25
+  link: "https://money.usnews.com/credit-cards/articles/zombie-credit-cards-how-your-expired-card-can-come-back-to-life"
+  highlight: true
+  logo: "USNews.svg"
+  logo_scale: 0.82
 - title: "Researchers say 'zombie card' attack can enable transactions on some expired credit cards"
   publisher: "First Alert 4"
   date: 2026-08-31
@@ -138,6 +149,10 @@
   publisher: "XenoSpectrum"
   date: 2026-08-19
   link: "https://xenospectrum.com/en/zombie-visa-cards-expired-contactless-payment-exploit-usenix-2026/"
+- title: "How can expired contactless cards become a means of payment again?"
+  publisher: "Računalniške novice"
+  date: 2026-08-19
+  link: "https://www.racunalniske-novice.com/en/how-can-expired-contactless-cards-become-a-means-of-payment-again/"
 - title: "Cartes de crédit zombies : des chercheurs arrivent à payer sans contact avec des cartes Visa périmées"
   publisher: "Les Numériques"
   date: 2026-08-19

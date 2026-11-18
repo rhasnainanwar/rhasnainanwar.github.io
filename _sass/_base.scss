@@ -23,6 +23,12 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+// Inline emphasis for research-area call-outs (e.g. in the About bio)
+.research-field {
+  color: var(--global-theme-color);
+  font-weight: 700;
+}
+
 table {
   td,
   th {

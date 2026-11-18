@@ -61,6 +61,11 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+        with:
+          # Full history is needed so `git log` can resolve each file's real
+          # last-commit date (used by the CV "Last updated" badge); a shallow
+          # clone would only see the single HEAD commit for every file.
+          fetch-depth: 0
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
