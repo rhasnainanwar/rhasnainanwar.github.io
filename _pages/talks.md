@@ -20,7 +20,6 @@ nav_order: 4
     <div class="talk-content">
       <div class="talk-meta">
         <span class="talk-type">{{ talk.type }}</span>
-        <span class="talk-year">{{ talk.year }}</span>
       </div>
       <h3 class="talk-title">
         {% if talk.link %}<a href="{{ talk.link }}">{{ talk.title }}</a>{% else %}{{ talk.title }}{% endif %}
