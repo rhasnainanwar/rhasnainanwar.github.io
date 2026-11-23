@@ -41,6 +41,117 @@ body.sticky-bottom-footer {
 // TODO: redefine content layout.
 
 /******************************************************************************
+ * Talks
+ ******************************************************************************/
+
+.talk-list {
+  list-style: none;
+  margin: 0 0 2.5rem;
+  padding-left: 0;
+}
+
+.talk-item {
+  border-top: 1px solid var(--global-divider-color);
+  padding: 1.5rem 0;
+}
+
+.talk-item:last-child {
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.talk-item--video {
+  align-items: center;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+}
+
+.talk-content {
+  min-width: 0;
+}
+
+.talk-meta {
+  align-items: center;
+  display: flex;
+  gap: 0.65rem;
+  margin-bottom: 0.65rem;
+}
+
+.talk-type {
+  color: var(--global-theme-color);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.talk-year {
+  color: var(--global-text-color-light);
+  font-size: 0.75rem;
+}
+
+.talk-title {
+  font-size: 1.3rem;
+  line-height: 1.35;
+  margin: 0 0 0.75rem;
+}
+
+.talk-title a {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.talk-title a:hover {
+  color: var(--global-theme-color);
+}
+
+.talk-video {
+  aspect-ratio: 16 / 9;
+  background: var(--global-code-bg-color);
+  border-radius: 0.35rem;
+  overflow: hidden;
+  width: 100%;
+
+  iframe {
+    border: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.talk-description {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin-bottom: 1rem;
+}
+
+.talk-link {
+  align-items: center;
+  display: inline-flex;
+  font-size: 0.9rem;
+  font-weight: 600;
+  gap: 0.4rem;
+}
+
+.talk-item--text {
+  .talk-content {
+    max-width: 48rem;
+  }
+
+  .talk-title {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .talk-item--video {
+    gap: 1.25rem;
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/******************************************************************************
  * Publications
  ******************************************************************************/
 
