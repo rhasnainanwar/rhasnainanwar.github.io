@@ -9,17 +9,24 @@ layout: default
   </header>
 
   <article class="post-content {{ page.class }}">
-    {% include highlighted_media.liquid %}
     <div class="publications media-coverage">
       {%- assign media_by_year = site.data.media | where_exp:"item", "item.date" | group_by_exp:"item", "item.date | date: '%Y'" | sort: "name" | reverse -%}
       {% for year in media_by_year %}
         <h2 class="year">{{ year.name }}</h2>
         {%- assign items_in_year = year.items | sort: "date" | reverse -%}
         {% for item in items_in_year %}
+          {% assign logo = site.data.media_logos[item.publisher] %}
           <div class="publication">
-            <p class="media-publisher"><strong>{{ item.publisher }}</strong></p>
-            <h3 class="media-article-title"><a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></h3>
-            <p class="media-date"><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%B %d, %Y" }}</time></p>
+            <div class="media-logo">
+              {% if logo %}
+                <img src="{{ '/assets/img/logos/' | append: logo | relative_url }}" alt="" width="72" height="40" loading="lazy">
+              {% endif %}
+            </div>
+            <div class="media-content">
+              <p class="media-publisher"><strong>{{ item.publisher }}</strong></p>
+              <h3 class="media-article-title"><a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></h3>
+              <p class="media-date"><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%B %d, %Y" }}</time></p>
+            </div>
           </div>
         {% endfor %}
       {% endfor %}

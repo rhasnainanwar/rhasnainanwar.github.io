@@ -4,13 +4,15 @@
   <h2 class="mt-4">Research Featured In</h2>
   <div class="featured-logo-cloud">
     {% for item in highlighted_media %}
+      {% assign logo = site.data.media_logos[item.publisher] %}
       <div class="featured-logo-cloud__item" data-logo-scale="{{ item.logo_scale | default: 1 }}">
         <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
-          <img src="{{ site.baseurl }}/assets/img/logos/{{ item.logo }}" alt="{{ item.publisher }} logo">
+          <img src="{{ '/assets/img/logos/' | append: logo | relative_url }}" alt="{{ item.publisher }} logo">
         </a>
       </div>
     {% endfor %}
   </div>
+  <p><a href="{{ '/media/' | relative_url }}">View all press &amp; media &rarr;</a></p>
 </div>
 
 <style>

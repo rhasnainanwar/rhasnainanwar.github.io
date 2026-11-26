@@ -7,7 +7,6 @@
   date: 2026-09-25
   link: "https://money.usnews.com/credit-cards/articles/zombie-credit-cards-how-your-expired-card-can-come-back-to-life"
   highlight: true
-  logo: "USNews.svg"
   logo_scale: 0.82
 - title: "Researchers say 'zombie card' attack can enable transactions on some expired credit cards"
   publisher: "First Alert 4"
@@ -26,13 +25,11 @@
   date: 2026-08-26
   link: "https://www.latribune.fr/article/tech/informatique/50102393136479/zombie-card-une-carte-bancaire-expiree-peut-encore-etre-utilisee-pour-payer"
   highlight: true
-  logo: "LaTribune.svg"
 - title: "Voici pourquoi vous devez absolument détruire correctement votre carte bancaire une fois sa date d'expiration passée"
   publisher: "BFM TV"
   date: 2026-08-25
   link: "https://x.com/BFMTV/status/2092134736831381782"
   highlight: true
-  logo: "BFM.svg"
 - title: "Experts warn your expired credit cards can still be charged"
   publisher: "GEEKSPIN"
   date: 2026-08-24
@@ -46,28 +43,24 @@
   date: 2026-08-23
   link: "https://arynews.tv/zombie-card-attack-revives-expired-visa-cards-for-real-purchases"
   highlight: true
-  logo: "ARYNews.svg"
   logo_scale: 0.65
 - title: "Your Expired Visa Card Could Be ‘Zombified’ to Make Contactless Payments"
   publisher: "WIRED"
   date: 2026-08-22
   link: "https://www.wired.com/story/security-news-this-week-your-expired-visa-card-could-be-zombiefied-to-make-contactless-payments/"
   highlight: true
-  logo: "WIRED.svg"
   logo_scale: 1.05
 - title: "Zombie Card Attack: Hackers Can Revives Expired Visa Cards for Contactless NFC Payments"
   publisher: "TechJuice"
   date: 2026-08-22
   link: "https://www.techjuice.pk/zombie-card-attack-expired-visa-nfc-relay/"
   highlight: true
-  logo: "TechJuice.svg"
   logo_scale: 0.82
 - title: "Zombie Card: An expired Visa credit card can be used for purchases"
   publisher: "Malwarebytes"
   date: 2026-08-21
   link: "https://www.malwarebytes.com/blog/news/2026/08/zombie-card-an-expired-visa-credit-card-can-be-used-for-purchases"
   highlight: true
-  logo: "Malwarebytes.svg"
   logo_scale: 1.18
 - title: "Experts warn expired credit cards can be brought back from the dead to make contactless payments"
   publisher: "TechRadar"
@@ -82,26 +75,22 @@
   date: 2026-08-21
   link: "https://www.futura-sciences.com/en/you-thought-expired-bank-cards-were-useless-this-clever-trick-proves-otherwise_38088/"
   highlight: true
-  logo: "Futura.svg"
 - title: "Zombie Card: la falla che fa rivivere le carte di credito scadute"
   publisher: "la Repubblica"
   date: 2026-08-21
   link: "https://www.repubblica.it/tecnologia/2026/08/21/news/zombie_card_errore_carte_di_credito_scadute_visa-425539948/"
   highlight: true
-  logo: "LaRepubblica.png"
   logo_scale: 1.1
 - title: "«Des zombies» : attention, des paiements sans contact sont possibles avec vos vieilles cartes bancaires"
   publisher: "CNEWS"
   date: 2026-08-21
   link: "https://www.cnews.fr/france/2026-08-21/des-zombies-attention-des-paiements-sans-contact-sont-possibles-avec-vos-vieilles"
   highlight: true
-  logo: "CNEWS.png"
 - title: "In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, GitHub Denies AI Caused Bug"
   publisher: "SecurityWeek"
   date: 2026-08-21
   link: "https://www.securityweek.com/in-other-news-zombie-card-attack-t-mobile-cut-cable-to-stop-hackers-github-denies-ai-caused-bug/"
   highlight: true
-  logo: "SecurityWeek.png"
 - title: "Zombie Card Attack Exploits Contactless Payments for POS Terminals"
   publisher: "RH-ISAC"
   date: 2026-08-21
@@ -115,7 +104,6 @@
   date: 2026-08-20
   link: "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html"
   highlight: true
-  logo: "TheHackerNews.png"
   logo_scale: 1.18
 - title: "'Cartão zumbi': brecha no pagamento por aproximação permite usar plástico vencido em compras"
   publisher: "TecMundo"
@@ -158,7 +146,6 @@
   date: 2026-08-19
   link: "https://www.lesnumeriques.com/banque-en-ligne/cartes-de-credit-zombies-des-chercheurs-arrivent-a-payer-sans-contact-avec-des-cartes-visa-perimees-n260595.html"
   highlight: true
-  logo: "LesNumeriques.svg"
 - title: "Expired credit cards revived by researchers to make unauthorized payments"
   publisher: "The Register"
   date: 2026-08-18
@@ -204,14 +191,12 @@
   date: 2025-08-27
   link: "https://www.fox26houston.com/news/researchers-say-digital-wallet-loophole-can-let-thieves-use-credit-cards-after-theyve-been-reported-stolen"
   highlight: true
-  logo: "Fox.png"
   logo_scale: 0.82
 - title: "Cybersecurity Alert: Why Your Mobile Wallet May Not Be Safe Even With a VPN"
   publisher: "Investopedia"
   date: 2025-07-05
   link: "https://www.investopedia.com/cybersecurity-mobile-wallet-may-not-be-safe-11731210"
   highlight: true
-  logo: "Investopedia.png"
   logo_scale: 1.15
 - title: "Researchers uncover security issues in Digital Wallets"
   publisher: "Fintech News"
@@ -226,7 +211,6 @@
   date: 2024-09-25
   link: "https://www.cnet.com/personal-finance/credit-cards/advice/are-digital-wallets-safe-heres-how-to-protect-your-financial-information-in-2024/"
   highlight: true
-  logo: "CNET.png"
   logo_scale: 0.82
 - title: "Study: The safety of ApplePay and GooglePay called into question"
   publisher: "Consumer Affairs"
@@ -241,7 +225,6 @@
   date: 2024-09-04
   link: "https://hackerdose.com/news/digital-wallet-loophole-shop-for-free/"
   highlight: true
-  logo: "Hackerdose.jpeg"
 - title: "New Study Reveals Loophole in Digital Wallet Security"
   publisher: "Business West"
   date: 2024-08-30
@@ -251,13 +234,11 @@
   date: 2024-08-25
   link: "https://www.linkedin.com/feed/update/urn:li:activity:7233569312542728192/"
   highlight: true
-  logo: "Kaspersky.png"
 - title: "A Loophole in Digital Wallet Security"
   publisher: "ACM TechNews, Friday, August 23, 2024"
   date: 2024-08-23
   link: "https://technews.acm.org/archives.cfm?fo=2024-08-aug/aug-23-2024.html"
   highlight: true
-  logo: "ACM.png"
   logo_scale: 1.15
 - title: "Researchers Uncover Security Issues in Digital Wallets"
   publisher: "PaymentsJournal"
@@ -268,7 +249,6 @@
   date: 2024-08-22
   link: "https://www.forbes.com/sites/billhardekopf/2024/08/22/this-week-in-credit-card-news-people-using-cash-back-cards-to-help-during-tough-economy/"
   highlight: true
-  logo: "Forbes.png"
   logo_scale: 0.85
 - title: "5 Emerging Security Imperatives for Digital Wallets"
   publisher: "PYMNTS"
@@ -299,13 +279,11 @@
   date: 2024-08-20
   link: "https://www.techradar.com/pro/digital-wallets-allow-for-the-use-of-stolen-credit-cards"
   highlight: true
-  logo: "TechRadar.jpeg"
 - title: "Digital wallets can allow purchases with stolen credit cards"
   publisher: "The Register"
   date: 2024-08-20
   link: "https://www.theregister.com/2024/08/20/digital_wallets_simplify_fraud/"
   highlight: true
-  logo: "TheRegister.png"
 - title: "Security flaw allows stolen credit card use on digital wallets"
   publisher: "NewsBytes"
   date: 2024-08-20
