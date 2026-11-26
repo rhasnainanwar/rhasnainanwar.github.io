@@ -17,6 +17,7 @@ layout: default
         {% for item in items_in_year %}
           {% assign logo = site.data.media_logos[item.publisher] %}
           <div class="publication">
+            <p class="media-date"><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%B %d, %Y" }}</time></p>
             <div class="media-logo">
               {% if logo %}
                 <img src="{{ '/assets/img/logos/' | append: logo | relative_url }}" alt="" width="72" height="40" loading="lazy">
@@ -25,7 +26,6 @@ layout: default
             <div class="media-content">
               <p class="media-publisher"><strong>{{ item.publisher }}</strong></p>
               <h3 class="media-article-title"><a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></h3>
-              <p class="media-date"><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%B %d, %Y" }}</time></p>
             </div>
           </div>
         {% endfor %}
