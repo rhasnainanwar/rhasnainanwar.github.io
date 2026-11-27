@@ -19,10 +19,36 @@
       object-fit: contain;
       transform: translateY(-50%);
       width: 100%;
+    }
+  }
 
-      [data-theme="dark"] & {
-        background-color: #fff;
-        border-radius: 0.2rem;
+  [data-theme="dark"] & {
+    // Adapt dark and opaque monochrome marks without adding a white backdrop.
+    .media-logo img {
+      &[src$="/DigitalToday.png"],
+      &[src$="/LaTribune.svg"],
+      &[src$="/BFM.svg"],
+      &[src$="/LaRepubblica.png"],
+      &[src$="/Futura.svg"],
+      &[src$="/LesNumeriques.svg"],
+      &[src$="/SecurityWeek.png"],
+      &[src$="/Fox.png"],
+      &[src$="/PaymentsDive.png"],
+      &[src$="/PaymentsJournal.png"],
+      &[src$="/CISOAdvisor.png"] {
+        filter: brightness(0) invert(1);
+      }
+
+      &[src$="/WIRED.svg"] {
+        filter: invert(1);
+      }
+
+      &[src$="/TheCoolDown.png"],
+      &[src$="/Cybernews.png"],
+      &[src$="/GroundNews.png"],
+      &[src$="/Hackerdose.jpeg"] {
+        filter: grayscale(1) invert(1);
+        mix-blend-mode: screen;
       }
     }
   }
