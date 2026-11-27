@@ -7,3 +7,5 @@ For a new outlet without a matching asset, find an official PNG from its website
 Reuse the shared, image-fitted white backing in dark mode; keep light-mode logos unbacked. Preserve each logo's original colors and aspect ratio, and avoid white padding or letterboxing. Add logo-specific exceptions only when necessary, and verify new assets in both themes.
 
 The homepage wall is curated: do not automatically add `highlight: true` when adding an entry. These rules do not apply to personal announcements without an outlet.
+
+For a newly curated featured logo, `_includes/highlighted_media.liquid` automatically sizes it from its aspect ratio. The optional per-article `logo_scale` defaults to 1; adjust it only if visually necessary for the logo's perceived size or whitespace. Keep the natural aspect ratio and check the wall on mobile and desktop.
